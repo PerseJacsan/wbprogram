@@ -1,0 +1,29 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20%;
+    margin-left: 40%;
+    position: relative;
+  
+    animation: moveX 3s infinite alternate ease-in-out,
+               changeColor 3s infinite alternate ease-in-out,
+               rotateBox 3s infinite linear;
+  }
+  
+  @keyframes moveX {
+    0%   { left: 0; }
+    100% { left: 200px; }
+  }
+  
+  @keyframes changeColor {
+    0%   { background-color: blue; }
+    50%  { background-color: red; }
+    100% { background-color: green; }
+  }
+  
+  @keyframes rotateBox {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
