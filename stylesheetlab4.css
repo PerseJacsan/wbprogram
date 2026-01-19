@@ -1,0 +1,44 @@
+
+* {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+body {
+    background-color: #f0f0f0; 
+    padding: 20px;
+}
+
+h1 {
+    color: midnightblue;
+    
+}
+
+#p1 {
+    color: darkslategrey;
+    line-height: 1.5;
+}
+
+.anc {
+    background-color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+h3.anc {
+    color: #ffd700;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #aaa;
+}
+
+a:hover {
+    background-color: #555;
+}
